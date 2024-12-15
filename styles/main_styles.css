@@ -118,7 +118,7 @@ p a:hover::after {
 }
 
 ::selection {
-	background: #ff3500;
+	background: #135a86;
 	color: #FFFFFF;
 }
 
@@ -322,13 +322,13 @@ section {
 }
 
 .button_border:hover a {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .button_fill {
 	display: inline-block;
 	height: 42px;
-	background: #ff3500;
+	background: #135a86;
 	border-radius: 21px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -627,7 +627,7 @@ section {
 }
 
 .menu_nav_list li a:hover {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .menu_extra {
@@ -656,7 +656,7 @@ section {
 }
 
 .menu_submit a:hover {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .menu .social {
@@ -685,7 +685,7 @@ section {
 .tags ul li {
 	display: inline-block;
 	height: 20px;
-	background: #ff3500;
+	background: #135a86;
 	border-radius: 3px;
 	margin-bottom: 5px;
 	-webkit-transition: all 200ms ease;
@@ -759,7 +759,7 @@ section {
 }
 
 .track_info ul li a:hover {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .track_info ul li:not(:last-of-type)::after {
@@ -827,7 +827,7 @@ section {
 
 .show_title a:hover,
 .show_date a:hover {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .show_info {
@@ -877,7 +877,7 @@ section {
 .show_fav_icon.active .svg path,
 .show_fav_icon:hover .svg path,
 .show_comments:hover .svg path {
-	fill: #ff3500;
+	fill: #135a86;
 }
 
 .show_fav_count,
@@ -890,7 +890,7 @@ section {
 }
 
 .show_comments:hover .show_comments_count {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .show_play_icon {
@@ -1035,7 +1035,7 @@ section {
 }
 
 .shows_2_button:hover a {
-	color: #ff3500;
+	color: #135a86;
 }
 
 /*********************************
@@ -1085,7 +1085,7 @@ section {
 .footer_list>div>div {
 	display: inline-block;
 	height: 20px;
-	background: #ff3500;
+	background: #135a86;
 	border-radius: 3px;
 	margin-bottom: 5px;
 	margin-bottom: 10px;
@@ -1144,7 +1144,7 @@ section {
 }
 
 .latest_title_container:hover .latest_play svg path {
-	fill: #ff3500;
+	fill: #135a86;
 }
 
 .latest_title_content {
@@ -1164,7 +1164,7 @@ section {
 }
 
 .latest_title_container:hover .latest_title {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .latest_episode_info {
@@ -1188,7 +1188,7 @@ section {
 }
 
 .latest_episode_info ul li a:hover {
-	color: #ff3500;
+	color: #135a86;
 }
 
 .gallery {
@@ -1275,10 +1275,10 @@ section {
 }
 
 .footer_social ul li:hover {
-	border-color: #ff3500;
-	box-shadow: 0 0 1px 0px #ff3500 inset, 0 0 1px 0px #ff3500;
+	border-color: #135a86;
+	box-shadow: 0 0 1px 0px #135a86 inset, 0 0 1px 0px #135a86;
 }
 
 .footer_social ul li:hover a i {
-	color: #ff3500;
+	color: #135a86;
 }
