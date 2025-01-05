@@ -13,6 +13,30 @@
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 </head>
 <body>
+	<style>
+		.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-img-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+	</style>
 
 <div class="super_container">
 
@@ -101,57 +125,140 @@
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
 		<div class="home_container d-flex flex-column align-items-center justify-content-center">
 			<div class="home_content">
-				<div class="home_title"><h1>about SCZ</h1></div>
+				<div class="home_title"><h1>Our Team</h1></div>
 			</div>
 		</div>
 	</div>
 
 	<!-- Intro -->
 
-	<div class="intro">
+	<section style="margin-top: 120px;">
 		<div class="container">
+			<!-- Section Heading -->
+			<div class="row justify-content-center text-center mb-2 mb-lg-4">
+				<div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
+					<span class="text-muted">Our Team</span>
+					<h2 class="display-5 fw-bold">Meet the Team</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.</p>
+				</div>
+			</div>
+			
+			<!-- Team Row 1 -->
+			<div class="row mb-4">
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/cholwe.jpg" alt="Choolwe">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">Choolwe ######</h5>
+							<div>Manager</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/newton.jpg" alt="Newton Munenga">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">Newton Munenga</h5>
+							<div>Baritone</div>
+							<div>Group Chairperson</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/nchimu.jpg" alt="Nchimunya Kaale">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">Nchimunya Kaale</h5>
+							<div>2<sup>nd</sup> Tenor</div>
+							<div>Programs Coordinator & Assistant Director</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Team Row 2 -->
+			<div class="row mb-4">
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/piimpa.jpg" alt="Piimpa Kaale">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">Piimpa Kaale</h5>
+							<div>Bass</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/bass.jpg" alt="Bass Team Member">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">####### ######</h5>
+							<div>Bass</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/team-2.jpg" alt="Another Team Member">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">###### #############</h5>
+							<div>Bass</div>
+							<div>###</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Team Row 3 -->
 			<div class="row">
-				<div class="col">
-					<div class="intro_content text-center">
-						<div class="section_title text-center"><h1>Sovereign Chords<span>History</span></h1></div>
-						<div class="intro_text text-center">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum sem. Fusce dignissim et diam quis pretium. 
-Etiam efficitur semper accumsan. Sed et dui aliquet, ultrices tellus non, sagittis magna. Nullam justo quam, vestibulum non magna et, tempus tincidunt est. Ut laoreet magna ac luctus lacinia. Aliquam eget neque turpis. Phasellus nibh ex, tristique a magna ac, convallis tincidunt diam. Nulla facilisi. Phasellus porta sapien sit amet tortor rhoncus mattis.</p>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/peter.jpg" alt="Peter">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">Peter ##########</h5>
+							<div>############</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/team-3.jpg" alt="Team Member">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">####### ######</h5>
+							<div>##########</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-lg-0 mb-4">
+					<div class="card text-white border-0 position-relative d-flex flex-column h-100">
+						<div class="card-img-container">
+							<img class="img-fluid w-100" src="images/team/robert.jpg" alt="Another Team Member">
+						</div>
+						<div class="position-absolute bottom-0 w-100 p-2 p-lg-4 bg-dark" style="--bs-bg-opacity: .3;">
+							<h5 class="fw-bold">###### #############</h5>
+							<div>######</div>
+							<div>###</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- About -->
-
-	<div class="about">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="about_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
-						<div class="about_content">
-							<div class="section_title"><h1>Mission & Driving Force</h1></div>
-							<div class="about_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum sem. Fusce dignissim et diam quis pretium.  Etiam efficitur semper accumsan. Sed et dui aliquet, ultrices tellus non, sagittis magna. Nullam justo quam, vestibulum non magna et, tempus tincidunt est. Ut laoreet magna ac luctus lacinia. Aliquam eget neque turpis. Phasellus nibh ex, tristique a magna ac, convallis tincidunt diam. Nulla facilisi. Phasellus porta sapien sit amet tortor rhoncus mattis.</p>
-							</div>
-							<div class="social">
-								<ul class="d-flex flex-row align-items-start justify-content-start">
-									<li><a href="https://web.facebook.com/sovereignchordszambia" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="https://www.instagram.com/sovereignchords?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									<li><a href="https://open.spotify.com/artist/2JCuiIuw0EGU4d31nNG5Pd?si=bnM79YZpSDKbfzpT3OXung" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
-									<li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40sovereignchordszambia.8935%3Fsi%3DCF4qaJLL8LORMkPj%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1JHuOqcE2JmhC549629Ye2ruF3MBDwr8b5NH5YQETCzpgacwTohbS9jbw_aem_8Zxh9KQpViOcabZXiGJD7g&h=AT3nUaxGUNh38cmzaDwVXQptOqNzHeFs5K9UoYfdbo1l8ZYsomXT6S8iCqJGjr__EMh5WZOuyvqEJgBYt_MqDJHYoIOR99YG1gd63r57kB5KjhmKnVAX6a9rfKiQvQ7F1WegsA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="about_image"><img src="images/man.png" alt=""></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	</section>
+	
 
 	<!-- Newsletter -->
 
